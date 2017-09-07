@@ -1,43 +1,82 @@
-.best {
-  transform: rotate(90deg);
-  border-radius: 50%
+body {
+
+  background-image: url(../images/scissor.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
 }
-.yes {
-  width: 700px;
-  height: 200px;
-  color: white;
-  margin: 0 auto;
-  margin-top: 40px;
+.body{
+
+}
+#navbar{
+  color: black;
+}
+.example3 .navbar-brand {
+  height: 80px;
+}
+img {
+  border-radius: 15px;
+}
+
+.ex1 .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.ex1 .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+footer {
+    display: block;
+}
+.header{
+  padding: 0px;
+  margin: 0px;
+}
+.header h5{
+  height: 100%;
+  font-family: 'Graduate', cursive;
+  font-size: 40px;
+  color: #708090;
+  padding-left: 120px;
+}
+.menu{
+  float: right;
+}
+#slideshow{
+  padding: 0px;
+  margin: 0px;
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
+  opacity: 0.7;
+  z-index: 1;
+}
+#programs .h2{
+  color: #d7ecff;
   text-align: center;
 }
-html {
-  background: url(../images/reality.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-family: sans-serif;
+#programs{
+  background-color: transparent;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
 }
-.social{
-  font-size: 50px;
-
+.footer{
+  background-color: transparent;
+  color: #000000;
 }
-.social a {
-  color: white
+h2{
+  text-align: center;
 }
-
-.line {
-  width: 500px;
-  margin: 0 auto;
-  border-top: 1px solid white
+.card{
+  background-color: transparent;
 }
-
-.Love {
-  color: yellow;
-  text-align-last: left;
-  width: 65px;
+.card p{
+  filter: blur(100%)
+  color: #000000;
 }
-
-.wow {
-  color:red;
+#seniorschool, #middleschool, #elementary{
+  padding: 30px;
+  border-color:;
 }
